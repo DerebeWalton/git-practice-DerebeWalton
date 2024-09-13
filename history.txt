@@ -1,0 +1,183 @@
+  388  sudo apt update git
+  397  git rm
+  398  git rm .
+  399  mkdir git_practive
+  400  cp git_practive/ git practice
+  401  cp git_practive/ git_practice
+  403  cd git_practive/
+  405  mv git_practive/ git_practice
+  407  cd git_practice/
+  409  git init
+  415  mv git_practice/ git-practice-derek-walton
+  417  mv git-practice-derek-walton/ git-practice-DerebeWalton
+  419  git inti
+  420  git init
+  427  git branch
+  428  git rm
+  430  git status
+  438  git status
+  439  rm -rf .git
+  441  git status
+  444  git status
+  446  rm -rf .git
+  455  cd git-practice-DerebeWalton/
+  457  git status
+  462  cd git-practice-DerebeWalton/
+  471  git status
+  475  git status
+  476  git add .
+  478  git status
+  479  git commit -m "create new files"
+  480  git status
+  481  git branch
+  482  git log
+  485  git status
+  486  git add file_1.txt 
+  487  git status
+  488  git commit -m "added text to file_1"
+  489  git status
+  490  git add file_2.txt 
+  491  git commit -m "added text to file_2"
+  494  git add Readme.md 
+  495  git commit -m "Created readme file and started description within"
+  496  git config --global core.editor "code --wait"
+  497  git config status
+  498  git config
+  499  git config --global
+  500  git status
+  501  git log
+  502  touch .gitignore
+  504  nano .gitignore 
+  505  git add .gitignore 
+  506  git commit -m "created .gitignore file with text api-keys.txt"
+  507  git status
+  509  git status
+  511  git stsus
+  512  git status
+  514  git branch features
+  516  git status
+  517  git branch
+  518  git switch features 
+  519  git log
+  522  git add new_features.txt 
+  523  git commit -m "add empty file"
+  525  git status
+  526  git add new_features.txt 
+  527  git commit -m "added text to new_features.txt"
+  528  git switch main 
+  530  git status
+  531  git branch
+  533  git add file_1.txt 
+  534  git commit -m "added a line of text to file_1.txt"
+  535  git merge main features 
+  536  git log
+  539  git add new_features.txt 
+  540  git commit -m "new_features updated to no longer have new features"
+  541  git switch features 
+  542  git status
+  544  git add new_features.txt 
+  545  git commit -m "update new_features.txt to have new text"
+  546  git status
+  547  git switch main 
+  548  git merge features 
+  549  git merge main features 
+  550  git merge features main
+  551  git status
+  552  git log
+  554  git branch -d features 
+  555  git status
+  557  git log
+  559  git remote add origin git@github.com:DerebeWalton/git-practice-DerebeWalton.git
+  560  git push -u origin main
+  561  git status
+  562  git remote -v
+  563  git clone https://github.com/esnt/another-stat386-theme.git
+  569  git remote add origin git@github.com:DerebeWalton/my-blog.git
+  574  git status
+  578  nano another-stat386-theme/.git/description 
+  583  git status
+  584  git remote add origin git@github.com:DerebeWalton/my-blog.git
+  585  git push -u origin main
+  586  git remote add origin git@github.com:DerebeWalton/my-blog.git
+  587  git remote
+  588  git remote -v
+  589  git remort set-url my-blog git@github.com:DerebeWalton/my-blog.git
+  590  git remote set-url my-blog git@github.com:DerebeWalton/my-blog.git
+  591  git remote set-url my-blog https://github.com/DerebeWalton/my-blog.git
+  592  git remote remove origin
+  593  git remote -v
+  594  git remote add origin git@github.com:DerebeWalton/my-blog.git
+  595  git remote
+  596  git remote -v
+  597  git push -u origin main
+  600  git status
+  601  git add _config.yml 
+  602  git commit -m "first edits on configuration file"
+  603  git push
+  604  git pull
+  605  git status
+  621  git add _config.yml 
+  622  git commit -m "Changed config file to include more info"
+  623  git push
+  624  git --version
+  627  git fork https://github.com/KeepTheBarlow/git-practice-KeepTheBarlow
+  630  git clone git@github.com:DerebeWalton/git-practice-KeepTheBarlow.git
+  632  git status
+  633  cd git-practice-KeepTheBarlow/
+  638  git status
+  639  git branch feature-DerebeWalton
+  640  git status
+  641  git switch feature-DerebeWalton 
+  643  git log
+  646  git status
+  647  git add derek.txt 
+  648  git commit -m "Added derek.txt"
+  649  git push origin feature-DerebeWalton
+  653  cd git-practice-D
+  655  cd git-practice-DerebeWalton/
+  657  git log
+  658  git log --online
+  659  git log --oneline
+  662  cd git-practice-KeepTheBarlow/
+  663  git status
+  664  git push origin feature-DerebeWalton
+  665  git pull
+  668  rm git-practice-KeepTheBarlow/
+  669  rmdir git-practice-KeepTheBarlow/
+  670  rmdir -r git-practice-KeepTheBarlow/
+  672  cd git-practice-KeepTheBarlow/
+  679  cd .git/
+  683  git rm -r .git
+  686  cd git-practice-DerebeWalton/
+  688  git status
+  689  git pull
+  690  git status
+  691  git log
+  692  git status
+  696  git clone git@github.com:DerebeWalton/git-practice-KeepTheBarlow.git
+  698  cd git-practice-KeepTheBarlow/
+  700  git status
+  703  git status
+  704  git add derek.txt 
+  705  git commit -m "Added derek.txt"
+  706  git reset
+  707  git status
+  708  git reset ~HEAD
+  709  git log
+  710  git reset --hard dee6282
+  711  git status
+  712  git log
+  713  git branch feature-DerebeWalton
+  714  git status
+  715  git branch
+  716  git switch feature-DerebeWalton 
+  719  git add derek.txt 
+  720  git commit -m "Added derek.txt"
+  721  git status
+  722  git push origin feature-DerebeWalton 
+  723  git status
+  726  cd git-practice-DerebeWalton/
+  729  git status
+  730  git pull
+  731  git log --oneline > gitlog.txt
+  735  history | grep git > history.txt
